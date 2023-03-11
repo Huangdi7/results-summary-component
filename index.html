@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+  <section class="hero">
+    <div class="hero__score">
+      <p class="hero__title">Your Result</p>
+      <div class="hero__result">
+        <h3 class="hero__your-result">76</h3>
+        <span class="hero__max-result">of 100</span>
+      </div>
+      <strong class="hero__placing">Great</strong>
+      <p class="hero__description">You scored higher than 65% of the people who taken these tests.</p>
+    </div>
+
+    <div class="hero__summary">
+      <h3 class="hero__summary-title">Summary</h3>
+      <div class="hero__reaction hero__summary--box">
+        <div class="hero__test-info">
+          <img class="hero--icon" src="assets/images/icon-reaction.svg"/>
+          <p class="hero__reaction-title">Reaction</p>
+        </div>
+        <span class="hero__summary-result">80<span class="hero__summary-max-result">/100</span></span>
+      </div>
+      <div class="hero__memory hero__summary--box">
+        <div class="hero__test-info">
+          <img class="hero--icon" src="assets/images/icon-memory.svg"/>
+          <p class="hero__memory-title">Memory</p>
+        </div>
+        <span class="hero__summary-result">92<span class="hero__summary-max-result">/100</span></span>
+      </div>
+      <div class="hero__verbal hero__summary--box">
+        <div class="hero__test-info">
+          <img class="hero--icon" src="assets/images/icon-verbal.svg"/>
+          <p class="hero__verbal-title">Verbal</p>
+        </div>
+        <span class="hero__summary-result">61<span class="hero__summary-max-result">/100</span></span>
+      </div>
+      <div class="hero__visual hero__summary--box">
+        <div class="hero__test-info">
+          <img class="hero--icon" src="assets/images/icon-visual.svg"/>
+          <p class="hero__visual-title">Visual</p>
+        </div>
+        <span class="hero__summary-result">72<span class="hero__summary-max-result">/100</span></span>
+      </div>
+      <button class="hero__submit-test">Continue</button>
+    </div>
+  </section>
+</body>
+</html>
